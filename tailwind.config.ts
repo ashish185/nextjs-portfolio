@@ -1,1 +1,0 @@
-// Removing tailwind config as we're not using it
