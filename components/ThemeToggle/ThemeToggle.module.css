@@ -1,0 +1,30 @@
+.toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: var(--background-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: all var(--transition-normal);
+}
+
+.toggle:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: var(--text-color);
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform var(--transition-normal);
+}
+
+.toggle:hover .icon {
+  transform: rotate(45deg);
+}

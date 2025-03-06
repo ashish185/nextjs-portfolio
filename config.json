@@ -1,0 +1,53 @@
+{
+    "phoneNumber": 9034428440,
+    "name": "Ashish Singhal",
+    "emailId": "singhal.ash185@gmail.com",
+    "github": "https://github.com/ashish185",
+    "linkedIn": "https://linkedin.com/in/ashish185",
+    "RESUME_LINK": "https://drive.google.com/file/d/1TsyBfGTVBHg1mstVKsJgFzlwInt3WKvU/view?usp=sharing",
+    "experiences": [
+        {
+            "year": "(2022-Present)",
+            "designation": "Associate Staff Engineer",
+            "workDescription": "Developed and maintained web analytical application for analyzing the impact of changes the configurations over the globe",
+            "skillsUsed": [
+                "Redux",
+                "JavaScript",
+                "React",
+                "HTML5",
+                "SCSS"
+            ],
+            "currentlyWorking": true,
+            "company": "Nagarro"
+        },
+        {
+            "year": "(2021-2022)",
+            "designation": "Senior Software Engineer",
+            "workDescription": "Worked on Data Storage Application",
+            "skillsUsed": [
+                "TypeScript",
+                "JavaScript",
+                "React",
+                "HTML",
+                "SCSS"
+            ],
+            "company": "Nagarro"
+        },
+        {
+            "year": "(2018 - 2021)",
+            "designation": "Software Engineer",
+            "workDescription": "Worked as a full stack engineer for a Pharmaceutical Product",
+            "skillsUsed": [
+                "React",
+                "JavaScript",
+                "HTML",
+                "CSS3",
+                "Java"
+            ],
+            "company": "Sopra Steria"
+        }
+    ],
+    "about": {
+        "frontend": {}
+    }
+}
