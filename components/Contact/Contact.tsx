@@ -1,21 +1,21 @@
 "use client";
-import { useRef } from "react";
-import styles from "./Contact.module.css";
 import emailjs from "@emailjs/browser";
+import { FormEvent, useRef } from "react";
 import config from "../../config.json";
-import { Email, Github, LinkedIn } from "../Icons/Icons";
 import heroStyles from "../Hero/Hero.module.css";
+import { Email, Github, LinkedIn } from "../Icons/Icons";
+import styles from "./Contact.module.css";
 export function Contact() {
   const form = useRef<HTMLFormElement | null>(null);
   const { name, github, emailId, linkedIn } = config;
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        process.env.NEXT_PUBLIC_SERVICE_ID,
-        process.env.NEXT_PUBLIC_TEMPLATE_ID,
-        form.current,
+        process?.env?.NEXT_PUBLIC_SERVICE_ID || '',
+        process?.env?.NEXT_PUBLIC_TEMPLATE_ID || '',
+        form?.current || '',
         {
           publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
         }
