@@ -6,7 +6,7 @@ import config from "../../config.json";
 import { Email, Github, LinkedIn } from "../Icons/Icons";
 import heroStyles from "../Hero/Hero.module.css";
 export function Contact() {
-  const form = useRef();
+  const form = useRef<HTMLFormElement | null>(null);
   const { name, github, emailId, linkedIn } = config;
 
   const sendEmail = (e) => {
