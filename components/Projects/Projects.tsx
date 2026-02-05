@@ -7,7 +7,6 @@ export function Projects() {
     title: 'React web portfolio',
     description: 'The project is made up using react.js, with framer motion and d3.js',
     screenshot: ReactPortfolio,
-    link: "https://ashish185.github.io/portfolio-ashish-react/"
   }];
   
   return (
@@ -28,7 +27,6 @@ export function Projects() {
               <div className={styles.content}>
                 <h3 className={styles.projectTitle}>Project Title {title}</h3>
                 <p className={styles.description}>{`${description}`}</p>
-                <a className={styles.link} href={link}>Open Link</a><span>🔗</span>
               </div>
             </div>
           ))}
