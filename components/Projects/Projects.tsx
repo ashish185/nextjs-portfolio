@@ -14,7 +14,7 @@ export function Projects() {
       <div className="container">
         <h2 className={styles.title}>Featured Projects</h2>
         <div className={styles.grid}>
-          {projects.map(({ title, description, screenshot,link }) => (
+          {projects.map(({ title, description }) => (
             <div key={title} className={styles.card}>
               <div className={styles.imageWrapper}>
                 <Image
